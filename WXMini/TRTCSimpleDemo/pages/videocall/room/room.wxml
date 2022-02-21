@@ -95,5 +95,7 @@
       <view class="btn-hangup" bindtap="_hangUp">
         <image class="btn-image" src="../../../static/images/hangup.png"></image>
       </view>
+      <button bindtap="show_pusher_desc" style = "font-family:arial;color:rgb(123, 255, 0);font-size:20px;" >打印pusher信息</button>
+      <button bindtap="resume" style = "font-family:arial;color:red;font-size:20px;">恢复推流</button>
     </view>
   </view>
