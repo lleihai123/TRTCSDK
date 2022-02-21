@@ -87,7 +87,7 @@ Page({
     this.TRTC.on(TRTC_EVENT.LOCAL_JOIN, (event) => {
       console.log('* room LOCAL_JOIN', event)
       // // 进房成功，触发该事件后可以对本地视频和音频进行设置
-      this.setPusherAttributesHandler({ enableCamera: true })
+      this.setPusherAttributesHandler({ enableCamera: true ,videoOrientation: 'horizontal'})
       this.setPusherAttributesHandler({ enableMic: true })
     })
     this.TRTC.on(TRTC_EVENT.LOCAL_LEAVE, (event) => {
@@ -229,8 +229,7 @@ Page({
   },
    // 打印pusher配置信息
    show_pusher_desc(){
-    this.TRTC.getPusherInstance().pause() 
-
+    console.log('* room LOCAL_JOIN', this.TRTC.getPusherInstance().pusherAttributes)
   },
    // 恢复推流
    resume(){
