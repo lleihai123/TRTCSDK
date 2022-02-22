@@ -30,18 +30,21 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "enableEngineNative": false,
     "useIsolateContext": false,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
-    "showES6CompileOption": false
+    "disableUseStrict": false,
+    "showES6CompileOption": false,
+    "useCompilerPlugins": false,
+    "ignoreUploadUnusedFiles": true,
+    "minifyWXML": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.4.2",
-  "appid": "wx7304a75939100608",
-  "projectname": "webrtc-room",
+  "appid": "wxd8a4a0122b389b50",
+  "projectname": "WXMini_Old",
   "debugOptions": {
     "hidedInDevtools": []
   },

@@ -1,9 +1,9 @@
 //将 TEST_ACCOUNT 的内容替换成"控制台/实时音视频/快速上手第三步"生成的配置文件内容
 const TEST_ACCOUNT = {
-  "sdkappid": 1400182283,
+  "sdkappid": 1400188366,
   "users": [{
     "userId": "Miniprogram_trtc_01",
-    "userToken": "eJwtzd0KgkAQBeB32VvD9jdU6AXM6iIDk0CkVRnE3XXdQorePVMv5zuHMx*UJhf-VVkUIepjtJlvkJVyUMPMR1BgrG5s2RXOukeByVobZFsaAxJFhGNMAkoDtiTVaMBWkwshKMZ4UQfd33aMhDwUTKwr0ExfONZMZfGVE51TfY7lkDCvz5pDXd8a5923-TM-pW89Kt7u0fcH2Sw3Og__"
+    "userToken": "eAEtjk8LgjAYh7-LziHv3BxL6NBBhTBBCqSTqFv2VuqYo4Louyfq9ffn4fmSc3ry9Meg1SQUwCXAZs5Q6d7hFbUlITlij8YOra260lnXlEDJMhvVozIGFQkpB6BSMiHWBtvp*Y6LixtE1tyexZjnfryXrL4fYsaLrEqxjpJAq2Ro6l7uVqTDbnKhggeBv5XAFtxrFvE9IL8--to2MA__"
     },
     {
       "userId": "Miniprogram_trtc_02",
